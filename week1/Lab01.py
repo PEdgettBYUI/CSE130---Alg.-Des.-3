@@ -6,10 +6,12 @@
 #      This program is a simple Guessing Game made in python. Your goal is to guess a random number
 #       in the lowest number of attempts.
 # 4. What was the hardest part? Be as specific as possible.
-#    A growing sense of futility and that I've chosen the wrong dream to build a future on.
+#    I'm pretty familiar with if-else comparison statements at this point, but I have never settled
+#       on a good name scheme for my variables. It makes it look amateurish. As well as getting the
+#       Needed RNG to keep the video length under the maximum 1 minute length requirement can be a hassle.
 # 5. How long did it take for you to complete the assignment?
-#    -total time in hours including reading the assignment and submitting the program-  
-# Began: 2:27pm 4/25 | Concluded: 2:45pm 4/25
+#    Approx. 32 Minutes
+# Began: 2:27pm, 4/25 | Concluded: 2:45pm, 4/25 | Video Completed: 2:59pm, 4/25
 
 import random
 
