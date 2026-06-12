@@ -28,7 +28,7 @@ array_of_strings = raw_json_data["array"]
 
 # # Reduces array size each successive iteration
 # FOR end_point = 1 … (size of array - 1):
-for end_point in range(1, len(array_of_strings) - 1):
+for end_point in range(0, len(array_of_strings) - 1):
     assert len(array_of_strings) >= 0
 # 	# Set the first comparison item to the first index
     biggest_index = 0
@@ -40,9 +40,10 @@ for end_point in range(1, len(array_of_strings) - 1):
             biggest_index = current_index
 # # Swap the current largest item’s index and the current “end point”
 #   Swap(array[biggest_item], array[(size of array - end_point)
-    swap_index = len(array_of_strings) - end_point
+    swap_index = len(array_of_strings) - 1 - end_point
     array_of_strings[biggest_index], array_of_strings[swap_index] = (
     array_of_strings[swap_index], array_of_strings[biggest_index])
+    print(array_of_strings)
 # # The final output should be sorted from least to greatest
 # print(array_of_strings)
 
